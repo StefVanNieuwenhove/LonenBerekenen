@@ -94,10 +94,10 @@ public class Jobstudent extends Werknemer
 	{
 		String result = "";
 		result += String.format("%s%n", super.toString());
-		//result += String.format("Dagen: %d%nLoon: %.4f%nBrutoloon: %.2f%nStandplaatsvergoeding: %.2f%nStandplaatsvergoeding: - %.2f%nTotaal brutoloon: %.2f%nRSZ jobstudent: %.2f%nTotaal belastbaar: %.2f%nFietsvergoeding: %.2f%nNettoloon: %.2f"
-				//, aantalDagen, loon, brutoloon(), STANDPLAATSVERGOEDING, standplaatsvergoeding(), totaalBruto(), rsz(), belastbaarLoon(), fietsvergoeding(), berekenLoon());
-		result += String.format("Dagen: %d%nLoon: %.4f%n%.2f Brutoloon"
+		result += String.format("Dagen: %d%nLoon: %.4f%nBrutoloon: %.2f%nStandplaatsvergoeding: %.2f%nStandplaatsvergoeding: - %.2f%nTotaal brutoloon: %.2f%nRSZ jobstudent: %.2f%nTotaal belastbaar: %.2f%nFietsvergoeding: %.2f%nNettoloon: %.2f"
 				, aantalDagen, loon, brutoloon(), STANDPLAATSVERGOEDING, standplaatsvergoeding(), totaalBruto(), rsz(), belastbaarLoon(), fietsvergoeding(), berekenLoon());
+//		result += String.format("Dagen: %d%nLoon: %.4f%n%.2f Brutoloon"
+//				, aantalDagen, loon, brutoloon(), STANDPLAATSVERGOEDING, standplaatsvergoeding(), totaalBruto(), rsz(), belastbaarLoon(), fietsvergoeding(), berekenLoon());
 		return result;
 	}
 }
